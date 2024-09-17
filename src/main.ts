@@ -9,5 +9,5 @@ engineInit(
   SceneManager.gameUpdate,
   SceneManager.gameUpdatePost,
   SceneManager.gameRender,
-  SceneManager.gameRenderPost
+  SceneManager.gameRenderPost,
 );
