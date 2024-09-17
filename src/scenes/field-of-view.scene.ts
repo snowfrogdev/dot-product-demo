@@ -4,7 +4,7 @@ import { Player } from "./player";
 
 export class FieldOfViewScene extends Scene {
   constructor() {
-    super("field-of-view", ["./survivor-idle_flashlight.png", "./survivor-move_flashlight.png"]);
+    super("field-of-view", ["./survivor-idle_flashlight.png", "./survivor-move_flashlight.png", "./foliage.png"]);
   }
 
   onEnter(): void {

@@ -17,5 +17,5 @@ export interface SpriteFrameData {
     w: number;
     h: number;
   };
-  duration: number;
+  duration?: number;
 }
