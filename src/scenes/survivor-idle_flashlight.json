@@ -1,0 +1,198 @@
+{ "frames": [
+   {
+    "filename": "survivor-idle_flashlight 0.aseprite",
+    "frame": { "x": 797, "y": 333, "w": 266, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 24, "w": 266, "h": 165 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 1.aseprite",
+    "frame": { "x": 0, "y": 334, "w": 266, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 24, "w": 266, "h": 165 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 2.aseprite",
+    "frame": { "x": 266, "y": 334, "w": 266, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 24, "w": 266, "h": 165 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 3.aseprite",
+    "frame": { "x": 797, "y": 167, "w": 266, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 23, "w": 266, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 4.aseprite",
+    "frame": { "x": 266, "y": 168, "w": 265, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 23, "w": 265, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 5.aseprite",
+    "frame": { "x": 0, "y": 168, "w": 266, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 23, "w": 266, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 6.aseprite",
+    "frame": { "x": 532, "y": 0, "w": 266, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 266, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 7.aseprite",
+    "frame": { "x": 532, "y": 167, "w": 265, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 265, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 8.aseprite",
+    "frame": { "x": 798, "y": 0, "w": 266, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 33, "y": 22, "w": 266, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 9.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 266, "h": 168 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 33, "y": 21, "w": 266, "h": 168 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 10.aseprite",
+    "frame": { "x": 266, "y": 0, "w": 266, "h": 168 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 33, "y": 21, "w": 266, "h": 168 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 11.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 266, "h": 168 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 33, "y": 21, "w": 266, "h": 168 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 12.aseprite",
+    "frame": { "x": 798, "y": 0, "w": 266, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 33, "y": 22, "w": 266, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 13.aseprite",
+    "frame": { "x": 532, "y": 167, "w": 265, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 265, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 14.aseprite",
+    "frame": { "x": 532, "y": 0, "w": 266, "h": 167 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 22, "w": 266, "h": 167 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 15.aseprite",
+    "frame": { "x": 0, "y": 168, "w": 266, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 34, "y": 23, "w": 266, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 16.aseprite",
+    "frame": { "x": 266, "y": 168, "w": 265, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 23, "w": 265, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 17.aseprite",
+    "frame": { "x": 797, "y": 167, "w": 266, "h": 166 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 23, "w": 266, "h": 166 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 18.aseprite",
+    "frame": { "x": 266, "y": 334, "w": 266, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 24, "w": 266, "h": 165 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   },
+   {
+    "filename": "survivor-idle_flashlight 19.aseprite",
+    "frame": { "x": 0, "y": 334, "w": 266, "h": 165 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 24, "w": 266, "h": 165 },
+    "sourceSize": { "w": 303, "h": 223 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.8.1-x64",
+  "image": "survivor-idle_flashlight.png",
+  "format": "RGBA8888",
+  "size": { "w": 1064, "h": 499 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
