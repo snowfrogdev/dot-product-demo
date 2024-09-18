@@ -1,7 +1,6 @@
 import { drawTile, EngineObject, keyIsDown, lerpAngle, mousePos, PI, TileInfo, Timer, vec2 } from "littlejsengine";
 import * as idleFramesData from "./survivor-idle_flashlight.json";
 import * as moveFramesData from "./survivor-move_flashlight.json";
-import { FlashLight } from "./flash-light";
 import { createTileInfos } from "../create-tile-info";
 
 export class Player extends EngineObject {
@@ -9,7 +8,6 @@ export class Player extends EngineObject {
   private _moveTileInfos: TileInfo[];
   private _frameIndex = 0;
   private _frameTimer = new Timer(0.05);
-  private _flashlight = new FlashLight();
   private _isIdle = true;
   private _animatingIdle = true;
 
@@ -20,9 +18,6 @@ export class Player extends EngineObject {
     this.size = vec2(4);
     this.drawSize = vec2(4);
     this.damping = 0.85;
-    this.addChild(this._flashlight);
-    this._flashlight.localPos = vec2(0, 2.2);
-    this._flashlight.localAngle = -PI / 2;
   }
 
   update(): void {
