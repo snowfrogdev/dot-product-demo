@@ -30,17 +30,19 @@ export class DirectionalLight extends Light {
       x: (1 - this.height) * Math.sin(this.angle),
       z: this.height,
     };
-    // Normalize the light direction vector
-    /* const directionLength = Math.sqrt(
-      direction.x * direction.x + direction.y * direction.y + direction.z * direction.z
-    );
-    direction.x /= directionLength;
-    direction.y /= directionLength;
-    direction.z /= directionLength; */
 
     // Calculate dot product between light direction and normal
     const dot = Math.max(0, direction.x * normal.r + direction.y * normal.g + direction.z * normal.b);
-    const newPixel = pixel.add(this.color.scale(this.intensity * dot));
+    // Scale the light's color by intensity and dot product
+    const scaledLightColor = this.color.scale(this.intensity * dot, 1);
+
+    // Add only the RGB channels
+    const newR = pixel.r + scaledLightColor.r;
+    const newG = pixel.g + scaledLightColor.g;
+    const newB = pixel.b + scaledLightColor.b;
+
+    // Preserve the original alpha
+    const newPixel = rgb(newR, newG, newB, pixel.a);
 
     return newPixel.clamp();
   }
