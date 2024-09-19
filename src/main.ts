@@ -1,9 +1,9 @@
 import { engineInit } from "littlejsengine";
-import { SceneManager } from "./scene-manager";
+import { SceneManager } from "./extensions/scene-manager";
 import { FieldOfViewScene } from "./scenes/field-of-view.scene";
 import { LightingScene } from "./scenes/lighting.scene";
 
-SceneManager.registerScene(new LightingScene())
+SceneManager.registerScene(new LightingScene());
 SceneManager.registerScene(new FieldOfViewScene());
 
 engineInit(

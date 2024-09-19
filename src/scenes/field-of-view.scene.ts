@@ -1,5 +1,5 @@
 import { drawRect, glCanvas, mainCanvas, mainCanvasSize, overlayCanvas, PI, rgb, vec2 } from "littlejsengine";
-import { Scene } from "../scene";
+import { Scene } from "../extensions/scene";
 import { Player } from "../player";
 import { Foliage } from "../foliage";
 import { FlashLight } from "../flash-light";
