@@ -1,7 +1,7 @@
 import { drawTile, EngineObject, keyIsDown, lerpAngle, mousePos, PI, TileInfo, Timer, vec2 } from "littlejsengine";
 import * as idleFramesData from "./survivor-idle_flashlight.json";
 import * as moveFramesData from "./survivor-move_flashlight.json";
-import { createTileInfos } from "../create-tile-info";
+import { createTileInfos } from "./create-tile-info";
 
 export class Player extends EngineObject {
   private _idleTileInfos: TileInfo[];
