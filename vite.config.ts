@@ -10,23 +10,15 @@ export default defineConfig(({ mode }) => {
   };
 
   if (mode === "production") {
-    config.resolve = {
-      ...config.resolve,
-      alias: {
-        ...config.resolve?.alias,
-        littlejsengine: "littlejsengine/dist/littlejs.esm.min.js",
-      },
-    };
-
     config.build = {
       minify: "terser",
       modulePreload: false,
       rollupOptions: {
         output: {
-          entryFileNames: '[name].[hash].js',
-          chunkFileNames: '[name].[hash].js',
-          assetFileNames: '[name].[hash].[ext]',
-        }
+          entryFileNames: "[name].[hash].js",
+          chunkFileNames: "[name].[hash].js",
+          assetFileNames: "[name].[hash].[ext]",
+        },
       },
       terserOptions: {
         ...config.build?.terserOptions,
